@@ -1,0 +1,32 @@
+name: sell_products_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  carousel_slider: ^4.2.1
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+  smooth_page_indicator: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/chair1/
+    - assets/chair2/
+    - assets/chair3/
+    - assets/chair4/
+    - assets/chair5/
+    - assets/chair6/
+    - assets/chair7/
+    - assets/chair8/
